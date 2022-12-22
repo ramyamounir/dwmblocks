@@ -3,15 +3,12 @@
 // recompile using the make command.
 static const Block blocks[] = {
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
-    // {"", "/home/nikan/.config/dwmblocks/scripts/network.sh",	2, 0},
-    // {"", "spotify.sh", 1, 6},
-    {"", "memory.sh",	10,  0},
-    // {"", "crypto.py", 600, 5},
-    {"", "network.sh",5,7},
-    {"", "volume.sh", 0, 4},
-    // {"", "weather.py", 3600, 3},
-    {"", "packages.sh",	7200,  0},
-    {"", "wifi.sh", 5, 2},
+    {"", "sb-memory",	10,  0},
+    {"", "sb-disk",	10,  0},
+    {"", "sb-nettraf",5,7}, // network.sh
+    {"", "sb-volume", 1, 4}, //volume.sh
+    {"", "sb-internet", 5, 2}, //wifi.sh
+    {"", "sb-vpn", 5, 2}, //wifi.sh
     {"", "time.sh", 1, 1},
 
 };
