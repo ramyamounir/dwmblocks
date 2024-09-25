@@ -20,4 +20,4 @@ static const Block blocks[] = {
 static char *delim = " ";
 
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/;
-// sudo make clean install && { killall -q dwmblocks;setsid dwmblocks & }
+// make clean install && { killall -q dwmblocks;setsid dwmblocks & }
