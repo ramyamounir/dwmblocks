@@ -13,6 +13,7 @@ static const Block blocks[] = {
     {"",            "dwmb-separator",         500,  0},
     {"",            "dwmb-bluetooth",         5,    0},
     {"",            "dwmb-battery",           5,    0},
+    {"",            "dwmb-separator",         500,  0},
     {" ",          "dwmb-date",              15,   0},
     {"",            "dwmb-time",              1,    0}
 };
